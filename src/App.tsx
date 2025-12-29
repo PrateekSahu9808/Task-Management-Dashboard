@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { TaskProvider } from './context/TaskContext';
-import { Layout } from './components/Layout';
-import { AllTasksPage } from './pages/AllTasksPage';
-import { CompletedTasksPage } from './pages/CompletedTasksPage';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { TaskProvider } from "./context/TaskContext";
+import { Layout } from "./components/Layout";
+import { AllTasksPage } from "./pages/AllTasksPage";
+import { CompletedTasksPage } from "./pages/CompletedTasksPage";
 
 function App() {
   return (
